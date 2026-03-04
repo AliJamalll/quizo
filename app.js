@@ -14,6 +14,5 @@ app.use(morgan("dev"));
 app.use(express.json()); ///using middeleware
 
 app.use("/api/v1/users", userRouter);
-//aspdkltwltk
 
 module.exports = app;
